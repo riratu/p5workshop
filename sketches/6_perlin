@@ -1,0 +1,25 @@
+let formSize = 50
+
+function setup() {
+	createCanvas(windowWidth, windowHeight)
+	colorMode(HSB, 255)
+	
+}
+
+function draw() {
+	background(0)
+	
+	for(x = 0; x < windowWidth; x += formSize){
+		for(y = 0; y < windowHeight; y += formSize){
+			
+			radius = noise(x * 0.001, y * 0.001, millis() * 0.0003)
+			
+			strokeWeight(radius * formSize * 2)
+		    
+		    stroke(radius * 255, 115, 255)
+			
+			point(x, y)
+		}
+	}
+	
+}

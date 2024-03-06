@@ -1,0 +1,27 @@
+let size = 5
+
+function setup() {
+	createCanvas(windowWidth, windowHeight)
+	colorMode(HSB, 255)
+	textSize(80)
+	strokeWeight(5)
+	stroke(255)
+}
+
+function draw() {
+
+	background(0)
+	
+	for(y = 0; y < windowHeight; y += size){
+		
+		//sinusPos ist einWert zwischen -1 bis 1
+		sinusPos = sin(millis() * (y / windowHeight / 100))
+		
+		offsetLeft = windowWidth/2
+		travelWidth = 200
+		
+		x = sinusPos * travelWidth + offsetLeft
+		point(x, y)
+	}
+	
+}

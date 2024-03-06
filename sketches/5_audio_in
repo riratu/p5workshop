@@ -1,0 +1,18 @@
+function setup() {
+	mic = new p5.AudioIn()
+	mic.start()
+	mic.amp(100)
+
+	createCanvas(windowWidth, windowHeight)
+	fill(255, 30)
+	noStroke()
+}
+
+function draw() {
+	amp = mic.getLevel()
+	background(0, 10)
+
+	ellipse(windowWidth/2, windowHeight/2, amp * 100)
+	
+	text(amp, windowWidth/2, windowHeight/2 + 200)
+}

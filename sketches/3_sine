@@ -1,0 +1,23 @@
+function setup() {
+	createCanvas(windowWidth, windowHeight)
+	colorMode(HSB, 255)
+	textSize(80)
+}
+
+function draw() {
+
+	background(0)
+	
+	x = sin(millis() * 0.001) * windowWidth/2 + (windowWidth/2)
+	rect(x, 200, 100)
+	
+	x = sin(millis() * 0.0015) * windowWidth/2 + (windowWidth/2)
+	rect(x, 300, 100)
+	
+	x = sin(millis() * 0.002) * windowWidth/2 + (windowWidth/2)
+	rect(x, 400, 100)
+	
+	x = sin(millis() * 0.0025) * windowWidth/2 + (windowWidth/2)
+	rect(x, 500, 100)
+	
+}
