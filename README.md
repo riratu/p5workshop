@@ -34,7 +34,8 @@ The Docus for a basic p5 Workshop
 	- visuals only
 - create canvas ignorieren
 - setup / draw
-- chrome (chromium, brave etc.) für audio in
+- Sketches Exportieren, weil nur im Browser gespeichert.
+- chrome benutzen (chromium, brave etc.) für audio in. (am Besten schhon jetzt benutzen)
 
 **Immer ca. wenig min erklären, ausprobieren, fragen**
 
@@ -53,12 +54,13 @@ The Docus for a basic p5 Workshop
 - Color Mode HSB
 - strokeWeight()
 - fill()
-- stroke() (random)
+- stroke()
+- random()
 
 **Selbst in Doku schauen**
 - line
 - rect
-- ellipse
+- point
 
 **Basic Programmierdingens** (Sebastian)
 - variable
