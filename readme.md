@@ -2,7 +2,7 @@ Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu habe
 
 # Links
 
-- P5 Live Editor: p5live.org
+- P5 Live Editor: https://p5live.org
 - Dokumentation p5.js: https://p5js.org/
 
 # Teil 1
