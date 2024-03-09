@@ -41,11 +41,16 @@ Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu habe
 - point
 
 **Allgemeine Programmierkonzepte**
-- variable
-- for loop
-- browser console
-- Wie benutze ich Chat GPT um etwas zu entwerfen?
-- Wie benutze ich Chat GPT zum debuggen oder code erklären lassen?
+In diesem Block erklärt euch Sebastian einige grundlegende Konzepte.
+- **while(i < 100){}**    
+  Damit können Dinge viele Male ausgeführt werden.
+
+- **Browser Console**    
+  Damit können mehr Ausgaben und Fehler angezeigt werden.
+
+- **Chat GPT**    
+   Wie benutze ich Chat GPT um etwas zu entwerfen?    
+   Wie benutze ich Chat GPT zum debuggen oder code erklären lassen?    
 
 ## Weitere Tools
 - **noise()**
