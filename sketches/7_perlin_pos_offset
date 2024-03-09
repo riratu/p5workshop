@@ -1,22 +1,22 @@
 let formSize = 20
 
 function setup() {
-	createCanvas(windowWidth, windowHeight)
-	colorMode(HSB, 255)
-	strokeWeight(10)
+        createCanvas(windowWidth, windowHeight)
+        colorMode(HSB, 255)
+        strokeWeight(10)
 }
 
 function draw() {
-	background(0)
-	
-	for(x = 0; x < windowWidth; x += formSize){
-		for(y = 0; y < windowHeight; y += formSize){
-			radius = noise(x * 0.001, y * 0.001, millis() * 0.0001)
-			stroke(radius * 255, 155, 255)
-			offsetLeft = radius * 1000 - 500
-			offsetTop = radius * 1000 - 500
-			point(x + offsetLeft, y + offsetTop)
-		}
-	}
-	
+        background(0, 10)
+
+        for(x = 0; x < windowWidth; x += formSize){
+                for(y = 0; y < windowHeight; y += formSize){
+                        radius = noise(x * 0.001, y * 0.001, millis() * 0.0001)
+                        stroke(radius * 255, 155, 255)
+                        offsetLeft = radius * 1000 - 500
+                        offsetTop = radius * 1000 - 500
+                        point(x + offsetLeft, y + offsetTop)
+                }
+        }
+
 }
