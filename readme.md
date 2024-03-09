@@ -11,7 +11,7 @@
   liefert die Zahl an Durchgängen
   
 - **%**
-  modulo operator, teilt dirch eine Zahl und gibt den Rest aus
+  modulo operator, teilt durch eine Zahl und gibt den Rest aus
   
 - **background(0)**
   Übermalt den Hintergrund
