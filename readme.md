@@ -54,9 +54,9 @@
 
 ## Sound input
 In setup() funktion:
-**- mic = new p5.AudioIn()
-- mic.start()
-- mic.amp(50)**
+- **mic = new p5.AudioIn()**
+- **mic.start()**
+- **mic.amp(50)**
   Definiert den Microfon Eingang und die Eingangs-Lautstärke.
 
 In draw() funktion
