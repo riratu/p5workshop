@@ -6,7 +6,7 @@ The Docus for a basic p5 Workshop
 
 - was lernt man?
 - nicht viel lernen, sondern spielen, ausprobieren
-- hands 
+- hands on
 
 ## 2 Was ist p5.js?
 - einfach grafik machen.
@@ -21,9 +21,7 @@ The Docus for a basic p5 Workshop
 - Gianni Entwickler und macht in der Freizeit Creative Coding
 
 ## Wo finde ich die Doku und wie verwende ich die?
-- All diese tools sind aufgelistet
 - https://p5js.org/
-- Die Doku ist das beste Freund:in.
 
 ##  1 Was ist P5 live?
 - sketch starten
@@ -43,10 +41,8 @@ The Docus for a basic p5 Workshop
 - was ist oben links
 - ellipse()
 - random()
-- background(0) (zeichnet ein viereck)
+- background(0)
 - frameCount
-- millis()
-- sine() / cos()
 - modulo operator
 - text()
 
