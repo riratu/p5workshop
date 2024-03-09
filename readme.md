@@ -1,3 +1,5 @@
+Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu haben.
+
 # Links
 
 - P5 Live Editor: p5live.org
