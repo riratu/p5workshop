@@ -5,12 +5,15 @@ Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu habe
 - P5 Live Editor: https://p5live.org
 - Dokumentation p5.js: https://p5js.org/
 
-# Teil 1
+# Anfang
 - **ellipse(x, y, durchmesser)**
   Zeichnet einen Kreis
 
 - **i = 10**
   Das ist eine Variable. Damit können Dinge gespeichert werden.
+
+- **console.log()**   
+  (Zeige den Wert einer unten am Fenster an.)
   
 - **frameCount**
   liefert die Zahl an Durchgängen
@@ -23,7 +26,7 @@ Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu habe
   
 - **text("eins", x, y)**
   Schreibe etwas
-- **console.log()** (Zeige den Wert einer unten am Fenster an.)
+
 
 **FARBEN**
 - **colorMode(HSB, 255)**
