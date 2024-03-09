@@ -18,7 +18,7 @@
   
 - **text("eins", x, y)**
   Schreibe etwas
-- console.log() (Zeige den Wert einer unten am Fenster an.)
+- **console.log()** (Zeige den Wert einer unten am Fenster an.)
 
 **FARBEN**
 - **colorMode(HSB, 255)**
