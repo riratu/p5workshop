@@ -8,6 +8,9 @@ Hier sind einige grundlegende Funktionen um an einem Tag Spass mit p5.js zu habe
 # Teil 1
 - **ellipse(x, y, durchmesser)**
   Zeichnet einen Kreis
+
+- **i = 10**
+  Das ist eine Variable. Damit können Dinge gespeichert werden.
   
 - **frameCount**
   liefert die Zahl an Durchgängen
